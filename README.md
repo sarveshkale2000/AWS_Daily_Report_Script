@@ -4,11 +4,6 @@
 
 This project provides a Bash script that reports all AWS resources, including S3 buckets, EC2 instances, Lambda functions, and IAM users. The script is designed to run on an EC2 instance and create a daily report of these resources. It utilizes AWS CLI commands and is scheduled to run automatically using cron jobs.
 
-## Prerequisites
-* An AWS account with appropriate permissions to access S3, EC2, Lambda, and IAM resources.
-* An EC2 instance running Amazon Linux or a compatible distribution.
-* AWS CLI installed and configured on the EC2 instance.
-
 ## Step-by-Step Instructions
 
 ### 1. Configure AWS CLI
@@ -114,4 +109,4 @@ The generated report is saved in a file named `daily_report` located in the `/ho
 * Generate reports for compliance or billing purposes.
 
 By scheduling the script to run daily at 5:30 PM using cron jobs, users can ensure that they always have up-to-date information about their AWS resources without manual intervention. This project is an essential tool for AWS administrators and developers looking to maintain visibility and control over their cloud infrastructure.
-```
+
