@@ -1,6 +1,3 @@
-Here’s the content formatted as a complete README file for your GitHub repository:
-
-```
 # AWS Resource Reporting Script
 
 ## Overview
@@ -21,6 +18,7 @@ Run the following command to configure your AWS CLI with your access key and sec
 ```bash
 aws configure
 ```
+
 * Enter your AWS Access Key ID.
 * Enter your AWS Secret Access Key.
 * Specify the default region name (e.g., `us-east-1`).
@@ -104,5 +102,3 @@ cronie -l
 
 By following these steps, you will have a Bash script that reports all your AWS resources and is scheduled to run daily on your EC2 instance. The output will be saved in a file named `daily_report` located in the `/home/ec2-user/` directory.
 ```
-
-You can copy and paste this entire content directly into your README file on GitHub. Feel free to make any modifications or additions as needed!
